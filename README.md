@@ -24,7 +24,6 @@ The easiest way to use these samples without using Git is to download the zip fi
    **Deploy to local development enviroment:** 
    1. Unzip the files to the folder you will be serviing your web files from. (Apache is recommended)
    2. Create a local host record for fadex.demo.com (hosts file)
-       127.0.1.1       fadex.demo.com
    3. Modify the site directive with the following followed by an apache2 service restart.
    4. Open your web browser and navigate to fadex.demo.com .
    5. Click on the 'Quick Analysis...' button several times to simulate retriving a currency pair quote.
