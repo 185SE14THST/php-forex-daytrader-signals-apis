@@ -1,4 +1,5 @@
 /app/config/parameters.yml
+composer.lock
 /build/
 /phpunit.xml
 /var/*
@@ -14,4 +15,5 @@
 !var/SymfonyRequirements.php
 /vendor/
 /web/bundles/
-/fadex.zip
+*.zip
+!.idea
