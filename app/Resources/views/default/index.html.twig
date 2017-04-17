@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <section class="jumbotron text-center demo">
+        <div class="container">
+            <h1 class="jumbotron-heading demotitle">Currency Spotlight</h1>
+            <p class="lead">Binary options are limited-risk contracts based on a simple yes/no question about the market's price action. Use post signals for deeper insight.</p>
+            <div class="form-group form-inline row">
+                <div class="col-12">
+                    <input class="form-control" type="search" value="USDGBP" id="example-search-input">
+                    <a href="/" class="btn btn-primary">Quick Analysis</a>
+
+                </div>
+            </div>
+
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active demostats" href="#"><i class="fa fa-line-chart fa-2x"></i> <h1>{{ test }}</h1></a>
+                </li>
+            </ul>
+            <p>
+
+            </p>
+        </div>
+    </section>
+
+    <div class="album text-muted">
+        <div class="container">
+
+            <div class="row">
+                <div class="card">
+                    <p><strong>USD/EUR</strong></p>
+                    <div id="chart_diva" style="width: 356px; height: 280px;"></div>
+                    <p class="card-text"><i class="fa fa-newspaper-o fa-1x"></i>&nbsp;Daily Fx: The British Pound against the US Dollar is one of the oldest currency pairings in the world. The pair is often called 'The Cable', as the first transatlantic communication cable run across the floor of the Atlantic.</p>
+                </div>
+                <div class="card">
+                    <p><strong>USD/GBP</strong></p>
+                    <div id="chart_divb" style="width: 356px; height: 280px;"></div>
+                    <p class="card-text"><i class="fa fa-newspaper-o fa-1x"></i>&nbsp;Daily Fx: The British Pound against the US Dollar is one of the oldest currency pairings in the world. The pair is often called 'The Cable', as the first transatlantic communication cable run across the floor of the Atlantic.</p>
+                </div>
+                <div class="card">
+                    <p><strong>USD/JPY</strong></p>
+                    <div id="chart_divc" style="width: 356px; height: 280px;"></div>
+                    <p class="card-text"><i class="fa fa-newspaper-o fa-1x"></i>&nbsp;Daily Fx: The British Pound against the US Dollar is one of the oldest currency pairings in the world. The pair is often called 'The Cable', as the first transatlantic communication cable run across the floor of the Atlantic.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+{% endblock %}
