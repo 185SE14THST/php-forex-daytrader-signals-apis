@@ -27,16 +27,16 @@ The easiest way to use these samples without using Git is to download the zip fi
 cd /var/www/html
 unzip master.zip
 ```
-   1. Run a 'composer install' to include dependencies at the root of the project folder.
+   2. Run a 'composer install' to include dependencies at the root of the project folder.
 ```
 cd path/to/project/folder
 composer install
 ```
-   1. Create a local host record for fadex.demo.com (hosts file)
+   3. Create a local host record for fadex.demo.com (hosts file)
 ```
 127.0.0.1   fadex.demo.com
 ```
-   1. Modify the site directive with the following followed by an apache2 service restart. Use the appropriate folder paths based on where you unzipped the master.zip file.
+   4. Modify the site directive with the following followed by an apache2 service restart. Use the appropriate folder paths based on where you unzipped the master.zip file.
 ```
  ServerName fadex.demo.com
  DocumentRoot /var/www/html/project_fadex/web
@@ -47,8 +47,8 @@ composer install
  </Directory>
  ErrorLog /var/log/apache2/project_fadex_error.log
 ```
-   1. Open your web browser and navigate to fadex.demo.com .
-   1. Click on the 'Quick Analysis...' button several times to simulate retriving a currency pair quote.
+   5. Open your web browser and navigate to fadex.demo.com .
+   6. Click on the 'Quick Analysis...' button several times to simulate retriving a currency pair quote.
    
 > **Note:** This project has been tested using Mozilla FIrefox. Chrome based browsers require specific CSS modifications.
 
