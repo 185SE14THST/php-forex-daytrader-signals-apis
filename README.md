@@ -1,6 +1,6 @@
 # php-forex-daytrader-signals-apis
 View data and signals for binary options markets from a single dashboard, on a Mac, PC, or mobile device.
-> **Warning:** This sample is not meant for production. It serves as a rough draft or prof of concept. 
+> **Warning:** This sample is not meant for production. It serves as a rough draft or proof of concept. 
 > Code syntax, formatting, comments, free typose and flagrant misuse of CSS may be offensive to the senses.
 
 ![Screen shot](https://github.com/185SE14THST/php-forex-daytrader-signals-apis/blob/master/sample.jpg "Sample #1")
